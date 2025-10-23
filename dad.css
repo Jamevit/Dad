@@ -82,6 +82,14 @@ section{
     padding-bottom: 100px;
     color: green;
 }
+#More{
+    padding-bottom: 50px;
+    color:green;
+}
+#return{
+    padding-bottom: 100px;
+    color: red;
+}
 
 @media (max-width: 440px){
     section{
