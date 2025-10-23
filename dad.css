@@ -68,6 +68,21 @@ section{
     margin-right: auto;
 }
 
+#notdad{
+    padding-top: 300px;
+}
+#nomoney{
+    color: red;
+}
+#gotmoney{
+    padding-bottom: 50px;
+    color: green;
+}
+#havedad{
+    padding-bottom: 100px;
+    color: green;
+}
+
 @media (max-width: 440px){
     section{
         flex-direction: column;
