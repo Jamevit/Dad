@@ -1,0 +1,82 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(245, 219, 241);
+}
+
+
+.Love{
+    background-color: rgb(106, 180, 83);
+    color: rgb(255, 255, 255);
+    padding: 7px 50px 7px 50px;
+    border-radius: 15px;
+    text-decoration:none
+}
+
+
+.Dont_love{
+    background-color: rgb(255, 3, 3);
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    text-decoration:none
+}
+
+:hover.Dont_love{
+    background-color: rgb(255, 9, 9);
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+:hover.Love{
+    background-color: rgb(106, 180, 83);
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.left{
+    float: left;
+    width: 40%;
+    margin-left: 15%;
+    
+}
+.right{
+    float: left;
+    width: 40%;
+    margin-right: 15%;
+   
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.Happy{
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NotHappy{
+    padding-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 440px){
+    section{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .left, .right{
+        float: none;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
